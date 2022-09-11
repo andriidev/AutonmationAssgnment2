@@ -1,0 +1,26 @@
+[
+  {
+    "cityName":"Amsterdam",
+    "cityDescription":"Amsterdam’s intriguing history spans seven centuries. From humble beginnings as a small village to a world power in the 17th century, Amsterdam today is a fascinating mix of history and commerce."
+  },
+  {
+    "cityName":"Tel Aviv",
+    "cityDescription":"Tel Aviv, a city on Israel’s Mediterranean coast, is marked by stark 1930s Bauhaus buildings, thousands of which are clustered in the White City architectural area."
+  },
+  {
+    "cityName":"Shanghai",
+    "cityDescription":"Shanghai, on China’s central coast, is the country's biggest city and a global financial hub."
+  },
+  {
+    "cityName":"Seattle",
+    "cityDescription":"Seattle is surrounded by water, mountains and evergreen forests, and contains thousands of acres of parkland."
+  },
+  {
+    "cityName":"Singapore",
+    "cityDescription":"Financial center with a tropical climate and multicultural population. Singapore, an island city-state off southern Malaysia."
+  },
+  {
+    "cityName":"Istanbul",
+    "cityDescription":"Historical city in the heart of Europe and Asia"
+  }
+]
