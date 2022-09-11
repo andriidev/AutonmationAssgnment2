@@ -19,7 +19,7 @@ jobs:
 
       - name: Build
 #        run: mvn --batch-mode -DskipTests package
-        run: mvn package
+        run: mvn compile
 
       - name: Test
         run: mvn test
