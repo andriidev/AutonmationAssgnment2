@@ -1,8 +1,6 @@
 name: Java
 
-on:
-  push:
-  workflow_dispatch:
+on:  [push]
 
 jobs:
   build:
@@ -20,10 +18,10 @@ jobs:
           distribution: 'adopt'
 
       - name: Build
-        run: mvn --batch-mode -DskipTests package
+        run: mvn compile
 
       - name: Test
-        run: mvn --batch-mode -Dmaven.test.failure.ignore=true test
+        run: mvn test
 
       - name: Report
         uses: dorny/test-reporter@v1
