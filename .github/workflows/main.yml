@@ -18,12 +18,11 @@ jobs:
           distribution: 'adopt'
 
       - name: Build
-#        run: mvn --batch-mode -DskipTests package
-        run: mvn compile
+        run: mvn --batch-mode -DskipTests package
+#        run: mvn compile
 
       - name: Test
         run: mvn --batch-mode -Dmaven.test.failure.ignore=true test
-#        run: mvn --batch-mode -Dmaven.test.failure.ignore=true test
 
       - name: Report
         uses: dorny/test-reporter@v1
