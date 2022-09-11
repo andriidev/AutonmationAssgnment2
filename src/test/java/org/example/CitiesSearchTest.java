@@ -41,7 +41,7 @@ public class CitiesSearchTest
     public void searchWithEmptyString() throws IOException {
         List<CityData> citiesData = cityReader.searchByKeyWord("", jsonPath);
 
-        assertEquals(citiesData.size(), 6);
+        assertEquals(citiesData.size(), 7);
     }
 
     @Test
