@@ -18,7 +18,7 @@ jobs:
           distribution: 'adopt'
 
       - name: Build
-        run: mvn --batch-mode -DskipTests package
+        run: mvn --batch-mode -DskipTests compile
 #        run: mvn compile
 
       - name: Test
