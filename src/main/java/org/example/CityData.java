@@ -1,8 +1,5 @@
 package org.example;
 
-import lombok.Data;
-
-@Data
 class CityData {
     private String cityName;
     private String cityDescription;
