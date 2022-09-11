@@ -22,7 +22,7 @@ jobs:
         run: mvn compile
 
       - name: Test
-        run: mvn test
+        run: mvn --batch-mode -Dmaven.test.failure.ignore=true test
 #        run: mvn --batch-mode -Dmaven.test.failure.ignore=true test
 
       - name: Report
