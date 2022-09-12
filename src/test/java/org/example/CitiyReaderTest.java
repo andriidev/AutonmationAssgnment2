@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 /**
  * Unit test for DataReader App.
  */
-public class CitiesSearchTest
+public class CitiyReaderTest
 {
     CityReader cityReader = new CityReader();
     String jsonPath = "./data.json";
